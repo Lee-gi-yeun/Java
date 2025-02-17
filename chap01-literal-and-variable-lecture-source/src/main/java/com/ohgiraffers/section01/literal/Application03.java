@@ -2,7 +2,7 @@ package com.ohgiraffers.section01.literal;
 
 public class Application03 {
     public static void main(String[] args) {
-        
+
         System.out.println(9 + 9);              // 18
         System.out.println("9" + 9);            // "99"
         System.out.println(9 + "9");            // "99"
