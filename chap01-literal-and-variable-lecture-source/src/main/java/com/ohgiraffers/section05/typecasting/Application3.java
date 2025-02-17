@@ -5,11 +5,11 @@ public class Application3 {
         // int 미만의 자료형에서 주의할 점
         byte byteNum1 = 1;
         byte byteNum2 = 2;
-        byte result = (byte) (byteNum1 + byteNum2);
+        int result = byteNum1 + byteNum2;
 
         short shortNum1 = 1;
         short shortNum2 = 2;
-        short result2 = (short) (shortNum1 + shortNum2);
+        int result2 = shortNum1 + shortNum2;
 
         System.out.println(result);
         System.out.println(result2);
