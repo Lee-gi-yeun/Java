@@ -1,18 +1,13 @@
 package com.ohgiraffers.section01.method;
 
-import java.util.Scanner;
-
-public class Application1 {
+public class Application2 {
     public static void main(String[] args) {
         // 메소드의 호출 흐름에 대해 이해할 수 있다.
         System.out.println("main 호출");
 
         // 별도로 작성한 메소드를 호출한다
-        Application1 application1 = new Application1();
-        application1.methodA();
-        application1.methodB();
-        application1.methodC();
-        application1.methodA(); // 재사용
+        Application2 application2 = new Application2();
+        application2.methodA();
 
         System.out.println("main 종료");
     }
@@ -21,10 +16,12 @@ public class Application1 {
     // 접근제한자 반환형 메소드명 (매개변수) {}
     public void methodA () {
         System.out.println("methodA가 호출");
+        methodB();
         System.out.println("methodA가 종료");
     }
     public void methodB () {
         System.out.println("methodB가 호출");
+        methodC();
         System.out.println("methodB가 종료");
     }
     public void methodC () {
