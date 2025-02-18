@@ -18,10 +18,10 @@ public class Application3 {
         String str = sc.nextLine();
         System.out.println("str : "+str);
 
-        // 2. next 메소드로 읽어왔지만 개행을 포함한 문자열이여서 입력 버퍼에 남아 있게 되면
+        // 2. next 메소드로 읽어왔지만 "공백"을 포함한 문자열이여서 입력 버퍼에 남아 있게 되면
         // 이후의 메소드와 타입이 맞지 않아 java.util.InputMismatchException 발생
         System.out.print("문자열 입력 : ");
-        String str2 = sc.next();        // 개행이 예상되는 문자열은 nextLine으로 입력받기
+        String str2 = sc.next();        // "공백 포함"이 예상되는 문자열은 nextLine으로 입력받기
         System.out.println("str2 : "+str2);
 
         System.out.print("숫자 입력 : ");
