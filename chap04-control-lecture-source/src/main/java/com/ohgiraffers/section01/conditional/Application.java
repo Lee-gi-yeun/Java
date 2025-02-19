@@ -5,6 +5,7 @@ public class Application {
         A_if a_if = new A_if();
         B_ifElse b_ifElse = new B_ifElse();
         C_ifElseIf cIfElseIf = new C_ifElseIf();
+        D_switch dSwitch = new D_switch();
 
 //        a_if.testSimpleIfStatement();
 //        a_if.testNestedIfStatement();
@@ -13,6 +14,8 @@ public class Application {
 
 //        cIfElseIf.testIfElseIfStatement();
 //        cIfElseIf.testNestedIfElseIfStatement();
-        cIfElseIf.improveIfElseIfStatement();
+//        cIfElseIf.improveIfElseIfStatement();
+//        dSwitch.testSimpleSwitchStatement();
+        dSwitch.improveSwitchStatement();
     }
 }
