@@ -21,5 +21,10 @@ public class Application2 {
         // hashCode() : 객체의 주소 값을 10진수로 변환하여 생성한 객체의 고유 정수값을 반환하는 메소드
         System.out.println("iarr.hashCode() : "+ iarr.hashCode());
         System.out.println("darr.hashCode() : "+ darr.hashCode());
+
+        // 배열의 길이를 알 수 있는 필드를 제공한다
+        // String 클래스는 메소드로 제공하여 length()로 하용하는 점에 유의한다
+        System.out.println("iarr.length : "+iarr.length);
+        System.out.println("darr.length : "+darr.length);
     }
 }
