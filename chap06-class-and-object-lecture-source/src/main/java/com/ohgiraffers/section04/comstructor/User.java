@@ -37,4 +37,7 @@ public class User {
 
     // 메소드 선언부
     // 접근제한자 반환형 메소드명 (매개변수){}
+    public String getInfomation() {
+        return id + " " + pwd + " " + name + " " + enrollDate;
+    }
 }
