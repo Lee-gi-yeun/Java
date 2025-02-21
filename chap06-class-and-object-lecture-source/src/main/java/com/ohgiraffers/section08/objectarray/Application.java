@@ -21,9 +21,13 @@ public class Application {
             cars[i].driveMaxSpeed();
         }
 
+        // 객체 배열도 할당과 동시에 초기화 가능하다
+        Car[] cars2 = {new Car("부가티베이론",300),
+                       new Car("포터",300)};
+
         System.out.println();
 
-        for(Car car : cars){
+        for(Car car : cars2){
             car.driveMaxSpeed();
         }
     }
