@@ -1,4 +1,4 @@
-package section01.extend;
+package com.ohgiraffers.section01.extend;
 
 public class FireCar extends Car{
     // Car 클래스의 모든 멤버(필드, 메소드)를 상속 받을 수 있다
