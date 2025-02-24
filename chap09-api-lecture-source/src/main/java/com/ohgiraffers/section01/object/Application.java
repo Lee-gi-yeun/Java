@@ -28,6 +28,7 @@ public class Application {
         // 동일 객체 : 주소가 동일한 인스턴스
         // 동등 객체 : 주소가 다르더라도 필드 값이 동일한 인스턴스
         // Object의 hashCode(), equals() 는 동일 객체에 대한 판단을 할 수 있다
+        // Book의 재작성 된 메소드는 동등 객체에 대한 판단을 할 수 있다
         System.out.println(b4.hashCode());
         System.out.println(b5.hashCode());
 
