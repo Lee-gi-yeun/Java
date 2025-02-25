@@ -49,7 +49,6 @@ public class Application1 {
             System.out.println("실행이 완료되었습니다.");
         }
 
-        sc.close();
     }
 
     public static int getIntInput(Scanner sc, String prompt) throws Exception {
@@ -62,7 +61,7 @@ public class Application1 {
         }
     }
 
-    public void method(int molecule, int denominator) throws Exception {
+    public void method(int molecule, int denominator) throws DenominatorException {
         if (denominator == 0) {
             throw new DenominatorException("0으로 나누는 것은 허용되지 않습니다.");
         }
