@@ -41,6 +41,7 @@ public class Application2 {
                     while ((data = fr.read()) != -1) {
                         fw.write(data);
                     }
+                    System.out.println("파일 복사가 성공적으로 완료 되었습니다.");
                 }
         } catch (IOException e) {
             System.out.printf("오류 : "+origin+" (지정된 파일을 찾을 수 없습니다.)");
