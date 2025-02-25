@@ -8,8 +8,8 @@ public class ExceptionTest {
 
     // throws 구문 작성 시 여러 Exception을 나열할 수 있으며, 상위 타입인 Exception만 작성할 수도 있다
     public void checkEnoughMoney(int price, int money) 
-//            throws PriceNegativeException, MoneyNegativeException, NotEnoughMoneyException {
-              throws Exception{
+            throws PriceNegativeException, MoneyNegativeException, NotEnoughMoneyException {
+//              throws Exception{
         if(price < 0){
             throw new PriceNegativeException("상품 가격은 음수일 수 없습니다.");
         }
