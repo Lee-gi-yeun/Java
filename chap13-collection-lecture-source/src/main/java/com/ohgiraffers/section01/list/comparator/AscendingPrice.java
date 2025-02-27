@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.list;
+package com.ohgiraffers.section01.list.comparator;
 
 import com.ohgiraffers.section01.list.dto.BookDTO;
 
