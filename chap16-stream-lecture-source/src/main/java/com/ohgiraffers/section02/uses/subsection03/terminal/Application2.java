@@ -11,7 +11,7 @@ public class Application2 {
                 .rangeClosed(1,10)
                 .reduce((a,b) -> {
                     System.out.println("a : " + a + " , b : " + b);
-//                    return Integer.sum(a,b);
+//                    return Integer.sum(a,b);(
                     return Integer.min(a,b);
                 });
         System.out.println("reduceOneParam : " + reduceOneParam);
