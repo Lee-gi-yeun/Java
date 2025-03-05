@@ -4,11 +4,14 @@ import com.board.domain.Board;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FileBoardStorage implements BoardStorage {
 
     private static final String FILE_PATH = "src/main/java/com/board/db/boardDB.dat";
+    private Map<Integer, Integer> boardDB = new HashMap<>();
 
     @Override
     public void saveBoards(List<Board> boards) {
