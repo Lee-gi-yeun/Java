@@ -8,11 +8,13 @@ public class User implements Serializable {
     private int userNo;
     private String id;
     private String pwd;
+    private String userName;
 
-    public User(int userNo, String id, String pwd) {
+    public User(int userNo, String id, String pwd, String userName) {
         this.userNo = userNo;
         this.id = id;
         this.pwd = pwd;
+        this.userName = userName;
     }
 
     public int getUserNo() {
@@ -25,5 +27,19 @@ public class User implements Serializable {
 
     public String getPwd() {
         return pwd;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userNo=" + userNo +
+                ", id='" + id + '\'' +
+                ", pwd='" + pwd + '\'' +
+                ", userName='" + userName + '\'' +
+                '}';
     }
 }

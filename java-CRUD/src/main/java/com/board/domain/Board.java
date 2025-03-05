@@ -10,16 +10,14 @@ public class Board implements Serializable {
     private String content;
     private LocalDateTime created;
     private int userNo;
-//    private String pwd;
 
-    public Board(int boardNo, String userName, String title, String content, LocalDateTime created, int userNo/*String pwd*/){
+    public Board(int boardNo, String userName, String title, String content, LocalDateTime created, int userNo) {
         this.boardNo = boardNo;
         this.userName = userName;
         this.title = title;
         this.content = content;
         this.created = created;
         this.userNo = userNo;
-//        this.pwd = pwd;
     }
 
     public int getBoardNo() {
@@ -69,25 +67,6 @@ public class Board implements Serializable {
     public void setUserNo(int userNo) {
         this.userNo = userNo;
     }
-//    public String getPwd() {
-//        return pwd;
-//    }
-//
-//    public void setPwd(String pwd) {
-//        this.pwd = pwd;
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return "Board{" +
-//                "boardNo=" + boardNo +
-//                ", userName='" + userName + '\'' +
-//                ", title='" + title + '\'' +
-//                ", content='" + content + '\'' +
-//                ", created=" + created +
-//                ", pwd='" + pwd + '\'' +
-//                '}';
-//    }
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package com.board.persistence;
+package com.board.persistence.storage;
 
 import com.board.domain.Board;
 
