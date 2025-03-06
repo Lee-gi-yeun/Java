@@ -24,7 +24,5 @@ public class Application {
 
         // 스택 비어있는지 확인
         System.out.println(stack.isEmpty());
-
-        // 스택
     }
 }
